@@ -1,0 +1,140 @@
+.container{
+    box-shadow:0 0 6px 0 rgba(9,48,85,0.10);
+    background: #fff;
+    padding:20px;
+    margin-bottom: 20px;
+    .company{
+        width: 70%;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+        display: inline-block;
+        vertical-align: top;
+    }
+    :global{
+        .ant-form-item-label{
+            text-align: left;
+            label{
+                color:#666;
+            }
+        }
+        .ant-form-item-children{
+            color:#000;
+        }
+    }
+    .spanTitle{
+        color:#000;
+        vertical-align:top;
+        width: 70%;
+        white-space: nowrap;
+        text-overflow:ellipsis;
+        overflow: hidden;
+        // display: inline-block;
+    }
+    .spanClick{
+        color:rgb(109, 138, 229);
+        vertical-align:top;
+        width: 70%;
+        white-space: nowrap;
+        text-overflow:ellipsis;
+        overflow: hidden;
+        // display: inline-block;
+        cursor: pointer;
+    }
+    .deviceDetail{
+         padding-bottom: 10px;
+         border-bottom: 1px solid #ddd;
+         margin-bottom: 10px;
+         .titleWrap{
+            display: flex;
+            flex-direction: row;
+            white-space: normal;
+            .project{
+                padding-left: 10px;
+                line-height: 24px;
+                min-width: 400px;
+                p{
+                    margin-bottom:10px;
+                    font-size: 18px;
+                    font-weight: bold;
+                    line-height: 24px;
+                }
+            }
+        }
+    }
+    .search{
+        
+        // padding: 20px 0;
+        // border-bottom: 1px solid #ddd;
+        // // margin-bottom: 20px;
+    }
+    .listTitle{
+        // margin-top:20px;
+        margin-bottom: 20px;
+        background: rgba(240,244,250,0.50);
+        padding: 20px;
+        box-shadow:0 0 6px 0 rgba(9,48,85,0.10);
+        line-height: 40px;
+        color:#000;
+        .title{
+            color:#666;
+            span{
+                color:#000;
+            }
+        }
+    }
+    .list{
+        .btnGroup{
+            button{
+                margin-left: 10px;
+            }
+        }
+        .item{
+            background:#f7f9fc;
+            border-radius:1px;
+            padding: 20px;
+            margin-bottom: 10px;
+            .con{
+                border-bottom: 1px solid #ddd;
+                padding-bottom:20px; 
+                margin-bottom:20px; 
+                .conR{
+                    text-align: right;
+                    button{
+                        margin-left:10px;
+                    }
+                }
+            }
+            .titleWrap{
+                display: flex;
+                flex-direction: row;
+                white-space: normal;
+                .project{
+                    padding-left: 10px;
+                    line-height: 24px;
+                    .title{
+                        color:#666;
+                        span{
+                            color:#000;
+                        }
+                    }
+                    p{
+                        margin-bottom:10px;
+                        font-size: 18px;
+                        font-weight: bold;
+                        line-height: 24px;
+                    }
+                }
+            }
+            .foot{
+                p{
+                    color:#666;
+                    span{
+                        color:#000;
+                        margin-left: 10px;
+                    }
+                } 
+            }
+        }
+    }
+}

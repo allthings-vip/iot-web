@@ -1,0 +1,87 @@
+.indexWrap{
+    .search{
+        background: #fff;
+        padding: 20px 20px 0 20px;
+        box-shadow:0 0 6px 0 rgba(9,48,85,0.10);
+    }
+    .list{
+        margin-top: 20px;
+        .item{
+            margin-bottom: 20px;
+            min-width: 353px;
+        }
+        .gutterbox{
+            background: #fff;
+            padding: 0 20px;
+            box-shadow:0 0 6px 0 rgba(9,48,85,0.10);
+            border-radius:1px;
+            .titleWrap{
+                display: flex;
+                flex-direction: row;
+                white-space: normal;
+                .desc{
+                    height: 60px;
+                    overflow: hidden;
+                    word-break: break-all; 
+                    word-wrap:break-word;
+                    text-overflow: ellipsis;
+                    font-size:14px;
+                    color: #999;
+                }
+                .project{
+                    width: 100%;
+                    padding-left: 10px;
+                    .projectName{
+                        width: 90%;
+                        font-size: 18px;
+                        font-weight: bold;
+                        overflow: hidden;
+                        white-space: nowrap;
+                        text-overflow: ellipsis;
+                        display: inline-block;
+                    }
+                    p{
+                        
+                    }
+                }
+            }
+            .projectWrap{
+                p{
+                    font-size:14px;
+                    color:#666;
+                    line-height: 30px;
+                    span{
+                        white-space: nowrap;
+                        overflow: hidden;
+                        display: inline-block;
+                        text-overflow: ellipsis;
+                        width: 60%;
+                        color:#000;
+                        padding-left: 10px;
+                        vertical-align: top;
+                    }
+                }
+                .projectBtn{
+                    text-align: right;
+                    margin-top: 20px;
+                    button{
+                        margin-left: 10px;
+                    }
+                }
+            }
+        }
+    }
+
+    :global{
+        .ant-card-wider-padding .ant-card-head{
+            padding: 0;
+        }
+        .ant-card-head{
+            padding: 0;
+        }
+        .ant-card-body{
+            padding: 16px 0;
+            font-size:14px;
+        }
+    }
+}

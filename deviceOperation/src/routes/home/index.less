@@ -1,0 +1,178 @@
+.indexWrap{
+    .headWrap{
+        padding: 25px 35px;
+        background: #ffffff;
+        margin-bottom: 10px;
+        .title{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+        .titleImg{
+            //border-radius: 50%;
+            .circle1,.circle2,.circle3,.circle4{
+                border-radius: 50%;
+                width: 43px;
+                height: 43px;
+                padding: 5px;
+            }
+            .circle1{
+                background: #1092fa;
+                border:5px solid #1092fa;
+                box-shadow: rgba(3, 133, 255, 0.1) 0px 0px 0px 12px;
+            }
+            .circle2{
+                background: #ffcd31;
+                border:5px solid #ffcd31;
+                box-shadow: rgba(255, 205, 49, 0.1) 0px 0px 0px 12px;
+            }
+            .circle3{
+                background: #ff7b8b;
+                border:5px solid #ff7b8b;
+                box-shadow: rgba(255, 123, 139, 0.1) 0px 0px 0px 12px;
+            }
+            .circle4{
+                background: #9386f0;
+                border:5px solid #9386f0;
+                box-shadow: rgba(147, 134, 240, 0.1) 0px 0px 0px 12px;
+            }
+        }
+        .con{
+            margin-left: 27px;
+            .countTitle{
+                font-size:16px;
+                color:#666666;
+            }
+            .count{
+                font-size:30px;
+                color:#333333;
+                letter-spacing:0;
+                line-height:40px;
+                font-family: PingFangSC-Medium;
+            }
+            
+        }
+    }
+    .search{
+        background: #fff;
+        padding: 15px 20px;
+       
+    }
+    .list{
+        margin-top: 10px;
+        //min-height: 600px;
+        .item{
+            margin-bottom: 13px;
+            border-radius: 1px;
+            // min-width: 353px;
+            //min-width: 285px;
+        }
+        .item:hover{
+            
+        }
+        .gutterbox:hover{
+            box-shadow:0 0 8px 0 rgba(0,0,0,.2);
+            cursor: pointer;
+        }
+        .gutterbox{
+            background: #fff;
+            padding: 0 20px;
+            padding-bottom: 10px;
+            // box-shadow:0 0 6px 0 rgba(9,48,85,0.10);
+            border-radius:1px;
+            .titleWrap{
+                display: flex;
+                flex-direction: row;
+                white-space: normal;
+                .desc{
+                    height: 60px;
+                    overflow: hidden;
+                    word-break: break-all; 
+                    word-wrap:break-word;
+                    text-overflow: ellipsis;
+                    font-size:14px;
+                    color: #999;
+                }
+                .project{
+                    width: 100%;
+                    padding-left: 10px;
+                    .projectTitle{
+                        display: flex;
+                        flex-direction: row;
+                        align-items: flex-end;
+                        justify-content: space-between;
+                        .projectName{
+                            width:120px;
+                            font-size: 16px;
+                            font-weight: bold;
+                            overflow: hidden;
+                            white-space: nowrap;
+                            text-overflow: ellipsis;
+                            width: 100%;
+                            min-width: 100px;
+                            // display: inline-block;
+                        }
+                        
+                    }
+                    
+                }
+                .status{
+                    // text-align: right;
+                    color:#d0021b;
+                    position:absolute;
+                    right:0;
+                    width: 76px;
+                    height: 52px;
+                    background: url(../../assets/image/index/complate.png)
+                }
+                .statusU{
+                    // text-align: right;
+                    color:#d0021b;
+                    position:absolute;
+                    right:0;
+                    width: 76px;
+                    height: 52px;
+                    background: url(../../assets/image/index/uncomplate.png)
+                }
+            }
+            .projectWrap{
+                p{
+                    font-size:14px;
+                    color:#666;
+                    line-height: 30px;
+                    span{
+                        white-space: nowrap;
+                        overflow: hidden;
+                        display: inline-block;
+                        text-overflow: ellipsis;
+                        width: 70%;
+                        color:#000;
+                        padding-left: 10px;
+                        vertical-align: top;
+                    }
+                }
+                
+            }
+            
+        }
+        .projectBtn{
+            text-align: right;
+            button{
+                margin-left: 10px;
+            }
+        }
+    }
+
+    :global{
+        .ant-card-wider-padding .ant-card-head{
+            padding: 0;
+        }
+        .ant-card-head{
+            padding: 0;
+        }
+        .ant-card-body{
+            padding: 16px 0;
+            font-size:14px;
+        }
+    }
+}

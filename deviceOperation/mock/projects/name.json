@@ -1,0 +1,19 @@
+{
+    "err":"",
+    "rc":0,
+    "ret":{
+        "items":[
+            {
+                "iotProjectId": 1,
+                "projectName":"项目1"
+            },{
+                "iotProjectId": 2,
+                "projectName":"项目2"
+            },{
+                "iotProjectId": 3,
+                "projectName":"项目3"
+            }
+        ]
+    }
+
+}

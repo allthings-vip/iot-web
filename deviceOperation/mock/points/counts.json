@@ -1,0 +1,23 @@
+{
+    "err":"",
+    "rc":0,
+    "ret":{
+        "items":[{
+            "pointCounts":"10",
+            "inputDate":"1515513600000"
+        },{
+            "pointCounts":"50",
+            "inputDate":"1515400000000"
+        },{
+            "pointCounts":"22",
+            "inputDate":"1515686400000"
+        },{
+            "pointCounts":"43",
+            "inputDate":"1515772800000"
+        },{
+            "pointCounts":"34",
+            "inputDate":"1515859200000"
+        }]
+    }
+
+}

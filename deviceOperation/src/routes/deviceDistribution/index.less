@@ -1,0 +1,60 @@
+
+.container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    margin-bottom: 10px;
+    .crumb {
+        height: 44px;
+    }
+    .queryDiv {
+        background-color: #fff;
+        position: absolute;
+        z-index: 1;
+        top: 55px;
+        left: 50%;
+        margin-left: -45%;
+        width: 90%;
+        padding: 10px 0;
+        display: flex;
+        align-items: center;
+    }
+    
+    .map {
+        height: calc(~'100% - 44px');
+        width: 100%;
+        border: 1px solid #DDDDDD;
+    }
+
+    :global {
+        .ant-layout, .ant-layout-content {
+            height: 100%;
+            width: 100%;
+        }
+        .BMapLib_SearchInfoWindow {
+            border: 0 !important;
+            font:14px arial,'microsoft yahei',sans-serif
+        }
+        .BMapLib_bubble_title {
+            height: 40px !important;
+            line-height: 40px !important;
+            background-color: #0289FF !important;
+            color: #fff !important;
+            padding: 0 15px !important;
+        }
+        .BMapLib_bubble_tools div{
+            height: 40px !important;
+            background-color: #0289FF !important;
+        }
+        .BMapLib_bubble_top {
+            height: 40px !important;
+            border-bottom: 0 !important;
+            background-color: #0289FF !important;
+        }
+        .BMapLib_sendToPhone {
+            display: none !important;
+        }
+    }
+}
+
+

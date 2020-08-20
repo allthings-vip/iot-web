@@ -1,0 +1,78 @@
+.controlButton {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    margin: 13px 14px;
+}
+.videoPlayer{
+    background-color: #111;
+    .timePicker {
+        height: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #111;
+        :global{
+            .ant-input{
+                background-color: #222;
+                color: #fff;
+                border: 0;
+            }
+            .ant-calendar-range-picker-separator, .ant-calendar-picker-icon{
+                color: #fff;
+            }
+        }
+    }
+    .channelChange{
+        height: 60px;
+        padding: 10px 0;
+        div {
+            margin: 0 auto;
+            height: 40px;
+            width: 50px;
+            cursor: pointer;
+            background-color: #222;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            span{
+                font-size: 10px;
+            }
+            img{
+                width: 20px;
+                height: 20px;
+            }
+        }
+    }
+    .closeIcon{
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        height: 60px;
+        align-items: center;
+        img{
+            height: 40px;
+            width: 40px;
+        }
+    }
+}
+.timeModal{
+    top: 161px !important;
+}
+.timeModal>:first-child{
+    width: 488px;
+    :global{
+        .ant-calendar-cell{
+            padding: 0;
+            height: 20px;
+        }
+        .ant-calendar-header{
+            height: 30px;
+            line-height: 30px;
+        }
+        .ant-calendar-year-select,.ant-calendar-month-select,.ant-calendar-next-year-btn,.ant-calendar-next-month-btn,.ant-calendar-prev-month-btn,.ant-calendar-prev-year-btn{
+            line-height: 30px;
+        }
+    }
+}

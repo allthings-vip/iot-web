@@ -1,0 +1,15 @@
+{
+    "err":"",
+    "rc":0,
+    "ret":{
+        "addedTodayDeviceCounts":"22",	
+        "addedTodayPointCounts":"33",	
+        "addedYesterdayDeviceCounts":"44",	
+        "deviceCounts":"55",	
+        "deviceTypeCounts":"66",	
+        "onlineDeviceCounts":"77",	
+        "projectCounts":"123",	
+        "totalPointCounts":"144"
+    }
+
+}

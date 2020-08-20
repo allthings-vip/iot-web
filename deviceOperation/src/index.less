@@ -1,0 +1,74 @@
+// 该文件样式是全局的，不需要加 :global
+@import './assets/less/global.less';
+
+// 全局自定义组件样式
+
+// Tabs标签页样式
+.tf-tabs{
+    &.ant-tabs.ant-tabs-card > .ant-tabs-bar .ant-tabs-tab{
+        background: #F0F0F0;
+        font-size: 13px;
+        color: #666;
+        min-width: 120px;
+        text-align: center;
+        margin-right: 10px;
+        border: 1px solid #F0F0F0;
+        border-bottom: 0;
+    }
+    &.ant-tabs.ant-tabs-card > .ant-tabs-bar .ant-tabs-tab-active{
+        background: #FF6A0F;
+        color: #fff;
+        border: 1px solid #FF6A0F;
+    }
+    .ant-tabs-bar{
+        border-bottom: 1px solid #FF6A0F;
+    }
+}
+
+// 表格样式
+.tf-table{
+    .ant-table-thead > tr > th{
+        padding: 0;
+        font-size: 13px;
+        font-weight: normal;
+        color: #333;
+        background: #F3F3F4;
+        height: 48px;
+        text-align: center;
+    }
+    .ant-table-tbody > tr > td{
+        font-size: 13px;
+        color: #727181;
+        text-align: center;
+    }
+}
+
+// modal样式
+.tf-modal{
+    .ant-modal-header{
+        background: #f5f5f5;
+        text-align: center;
+        border-bottom: none;
+    }
+    .ant-modal-footer{
+        border-top: none;
+        text-align: center;
+    }
+}
+
+// 重置
+:global{
+    .ant-popover-placement-right .ant-popover-title{
+        height: 27px;
+        line-height: 27px;
+        text-align: center;
+        color: #747382;
+        background: #F6F8F9;
+        font-size: 13px;
+        font-weight: normal;
+        padding: 0;
+        min-height: 0;
+        border-radius: 4px 4px 0 0;
+        border-bottom: 0;
+    }
+}

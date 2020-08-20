@@ -1,0 +1,10 @@
+{
+    "err":"",
+    "rc":0,
+    "ret":{
+        "deviceTotal":622,
+        "offlineTotal":552,
+        "onlineTotal":1222
+    }
+
+}

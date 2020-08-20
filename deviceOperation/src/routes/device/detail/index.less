@@ -1,0 +1,96 @@
+.container{
+    box-shadow:0 0 6px 0 rgba(9,48,85,0.10);
+    background: #fff;
+    padding:20px;
+    margin-bottom: 20px;
+    :global{
+        .ant-form-item-label{
+            text-align: left;
+            label{
+                color:#666;
+            }
+        }
+        .ant-form-item-children{
+            color:#000;
+        }
+        .ant-col-6{
+            margin-bottom: 10px;
+        }
+    }
+    // .spanTitle{
+    //     color:#666;
+    //     margin-bottom: 10px;
+    //     display: inline-block;
+    //     line-height: 14px;
+        .spanTitle{
+            color:#000;
+            vertical-align:top;
+            width: 50%;
+            white-space: nowrap;
+            text-overflow:ellipsis;
+            overflow: hidden;
+            display: inline-block;
+        }
+    // }
+    .deviceDetail{
+         padding-bottom: 20px;
+         border-bottom: 1px solid #ddd;
+         margin-bottom: 20px;
+         font-size:16px;
+         font-weight: bold;
+    }
+    .search{
+        
+        // padding: 20px 0;
+        // border-bottom: 1px solid #ddd;
+        // // margin-bottom: 20px;
+    }
+    .list{
+        .btnGroup{
+            button{
+                margin-left: 10px;
+            }
+        }
+        .item{
+            background:#f7f9fc;
+            border-radius:1px;
+            padding: 20px;
+            margin-bottom: 10px;
+            .con{
+                border-bottom: 1px solid #ddd;
+                padding-bottom:20px; 
+                margin-bottom:20px; 
+                .conR{
+                    text-align: right;
+                    button{
+                        margin-left:10px;
+                    }
+                }
+            }
+            .titleWrap{
+                display: flex;
+                flex-direction: row;
+                white-space: normal;
+                .project{
+                    padding-left: 10px;
+                    line-height: 24px;
+                    p{
+                        margin-bottom:10px;
+                        font-size: 18px;
+                        font-weight: bold;
+                        line-height: 24px;
+                    }
+                }
+            }
+            .foot{
+                p{
+                    color:#666;
+                    span{
+                        color:#000;
+                        margin-left: 10px;
+                    }
+                } 
+            }
+        }
+    }
+}

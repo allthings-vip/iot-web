@@ -1,0 +1,40 @@
+.sider{
+    height: 100%;
+    width: 170px !important;
+    max-width: 170px !important;
+    min-width: 170px !important;
+    margin-right: 10px;
+    margin-top: 10px;
+    background-color: #fff;
+    .siderChild{
+        width: 100%;
+        div{
+            cursor: pointer;
+            width: 98px;
+            height: 88px;
+            margin: 0 auto;
+            margin-top: 30px;
+            box-shadow: 0 0 6px 0 #DDDDDD;
+            border-radius: 4px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            font-size: 14px;
+            &:hover{
+                background-color: #1092FA !important;
+                color: #fff !important;
+                img:first-child{
+                    display: block !important;
+                } 
+                img:nth-child(2){
+                    display: none !important;
+                }
+            }
+            img{
+                width: 30px;
+                height: auto;
+            }
+        }
+    }
+}

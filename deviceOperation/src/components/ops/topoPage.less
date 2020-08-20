@@ -1,0 +1,294 @@
+.topo {
+    width: 100%;
+    padding: 0 10px;
+    .div1{
+        display: flex;
+        width: 100%;
+    
+    .head{
+        width: 2.5%;
+        height: 150px;
+        background-color: #30B2F3;
+        font-size: 12px;
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .aep {
+        width: 97.5%;
+        height: 150px;
+        background: rgba(49,179,243,0.08);
+        border: 2px solid #30B2F3;
+        overflow: hidden;
+        position: relative;
+        .butLeft{
+            position: absolute;
+            z-index: 100;
+            left: 0px;
+            width: 20px;
+            height: 150px;
+            line-height: 150px;
+            font-size: 20px;
+            text-align: center;
+            color:  #30B2F3;
+            &:hover{
+                background-color: #30B2F3;
+                opacity: 0.5;
+                color: #fff;
+            }
+        }
+        .butRight{
+            position: absolute;
+            z-index: 100;
+            right: 0;
+            width: 20px;
+            height: 150px;
+            line-height: 150px;
+            font-size: 20px;
+            text-align: center;
+            color:  #30B2F3;
+            &:hover{
+                background-color: #30B2F3;
+                opacity: 0.5;
+                color: #fff;
+            }
+        }
+        .aepContent {
+            width: auto;
+            height: 150px;
+            position: absolute;
+            // overflow: hidden;
+            white-space:nowrap;
+            .aepChild{
+                display: inline-block;
+                // width: 150px;
+                height: 100%;
+                margin: 0 50px;
+                padding-top: 15px;
+                text-align: center;
+                .child{
+                    display: inline-block;
+                    width: 100px;
+                    height: 120px;
+                    font-size: 10px; 
+                    text-overflow:ellipsis;
+                    white-space: nowrap;
+                    overflow: hidden;        
+                    cursor: pointer;          
+                    .childIcon {
+                        height: 85%;
+                        width: 66px;
+                        line-height: 10px;
+                        margin: 0 auto;
+                        text-overflow:ellipsis;
+                        white-space: nowrap;
+                        overflow: hidden;      
+                    }
+                }
+                
+            }
+        }    
+    }
+}
+
+    .aepLine {
+        width: 97.5%;
+        height: 88px;
+        overflow-x: hidden;
+        position: relative;
+        left: 2.5%;
+        top: -15px;
+        .aepLineCon {
+            width: auto;
+            position: absolute;
+            display: flex;
+            .aepLineChild{
+                flex: none;
+                // width: 200px;
+                .lineChild {
+                    width: 2px;
+                    height: 80px;
+                    background-color: #93C553;
+                    // margin-left: 99px;
+                    margin: 0 auto;
+                }
+                .aepSpot {
+                    margin: 0 auto;
+                    width: 8px;
+                    height: 8px;
+                    border-radius: 4px;
+                    background-color: #93C553;
+                }
+            }
+        }
+    }
+
+    .dos {
+        width: 100%;
+        // height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+            .recLeft{
+                border-style: solid;
+                border-width: 5px 5px 5px 5px;
+                border-color: transparent #30B1F3 transparent transparent;
+                width: 0px;
+                height: 0px;
+            }
+
+            .recRight{
+                border-style: solid;
+                border-width: 5px 5px 5px 5px;
+                border-color: transparent transparent transparent #30B1F3;
+                width: 0px;
+                height: 0px;
+            }
+
+            .recCross {
+                width: 40px;
+                height: 2px;
+                background-color: #30B2F3;
+            }
+        
+        .dosCon{
+            .recIcon {
+                width: 100%;
+                .recSpot {
+                    border-style: solid;
+                    border-width: 5px 5px 5px 5px;
+                    border-color: transparent transparent #30B2F3 transparent;
+                    width: 0px;
+                    height: 0px;
+                    margin: 0 auto;
+                }
+                .recSpot2 {
+                    border-style: solid;
+                    border-width: 5px 5px 5px 5px;
+                    border-color: #30B2F3 transparent transparent transparent;
+                    width: 0px;
+                    height: 0px;
+                    margin: 0 auto;
+                }
+                .recLine {
+                    width: 2px;
+                    height: 40px;
+                    background-color: #30B2F3;
+                    margin: 0 auto;
+                }
+            }
+            .dosChild{
+                // width: 150px;
+                // margin: 0 25px;
+                text-align: center;
+                .child{
+                    display: inline-block;
+                    width: 100px;
+                    height: 120px;
+                    font-size: 10px;    
+                    text-overflow:ellipsis;
+                    white-space: nowrap;
+                    overflow: hidden;
+                    cursor: pointer;                
+                    .childIcon {
+                        height: 85%;
+                        width: 66px;
+                        margin: 0 auto;
+                        line-height: 10px;
+                        text-overflow:ellipsis;
+                        white-space: nowrap;
+                        overflow: hidden;      
+                    }
+                }
+                
+            }
+        }
+    }
+    .div2{
+        display: flex;
+        width: 100%;
+        .head2 {
+           width: 2.5%;
+           background-color: #93C553;
+           font-size: 12px;
+           color: #fff;
+           position: relative;
+           top: -15px;
+           display: flex;
+           flex-direction: column;
+           justify-content: center;
+           align-items: center;
+        }
+    .device {
+        width: 97.5%;
+        overflow: hidden;
+        position: relative;
+        top: -15px;
+        background: rgba(147,197,83,0.08);
+        border: 2px solid #93C553;
+        .deviceCon {
+            width: auto;
+            position: absolute;
+            display: flex;
+            .deviceCon2{
+                flex: none;
+                // width: 200px;
+                margin-bottom: 40px;
+                .deviceDiv{
+                    // width: 90px;
+                    // margin-left:97px;
+                    height: 40px;
+                    .lineChild{
+                        display: inline-block;
+                        width: 2px;
+                        height: 40px;
+                        background-color: #93C553;
+                        // margin: 0 auto;
+                    }
+                    .lineAcross{
+                        display: inline-block;
+                        width: 15px;
+                        height: 2px;
+                        background-color: #93C553;
+                    }
+                    .lineSpot{
+                        display: inline-block;
+                        width: 8px;
+                        height: 8px;
+                        border-radius: 4px;
+                        background-color: #93C553;
+                        // position: relative;
+                        margin-bottom: -4px;
+                    }
+                    .deviceDiv2{
+                        display: inline-block;
+                        position: absolute;
+                        height: 30px;
+                        width: 100px;
+                        line-height: 30px;
+                        border-radius: 2px;
+                        background-color: #93C553;
+                        // position: relative;
+                        // margin-bottom: -15px;
+                        margin-left: -4px;
+                        // bottom: -15px;
+                        // left: -4px;
+                        font-size: 12px;
+                        overflow: hidden;
+                        white-space: nowrap; 
+                        text-overflow: ellipsis;
+                        img{
+                            height: 20px;
+                            width: auto;
+                            margin: 5px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    }
+}

@@ -1,0 +1,122 @@
+@import '../assets/less/global.less';
+.container{
+    a{
+        font-size: 14px;
+        display: inline-block;
+        padding-bottom: 20px;
+    }
+    .con{
+        .boardItem{
+            width: 20%;
+            text-align: center;
+            margin: 0 auto;
+            &:last-child{
+                .projectCon{
+                    margin-right:0;
+                }
+            }
+            .projectCon{
+                margin-right: 20px;
+                background: #fff;
+                padding: 44px  20px 24px 20px;
+                font-size:14px;
+                color:#666;
+                
+                &:hover{
+                    // .f1{
+                    //     border: 30px #ff7b8b1a solid;
+                    //     width: 100px;
+                    //     height: 100px;
+                    // }
+                }
+                .f1{
+                    margin: 0 auto;
+                    background: #ff7b8b;
+                    border: 20px #ff7b8b1a solid;
+                    border-radius: 50%;
+                    width: 80px;
+                    height: 80px;
+                    // background-color: #F36A22;
+                    // box-shadow: 0 0 0 17px #ff7b8b1a;
+                }
+                .f2{
+                    margin-top: 30px;
+                    margin-bottom: 10px;
+                }
+                .f3{
+                    font-family:PingFangSC-Medium;
+                    font-size:26px;
+                    color:#333333;
+                    letter-spacing:0;
+                    text-align:center;
+                    line-height:40px;
+                    margin-bottom: 10px;
+                }
+                .f4{
+                    font-size:14px;
+                    display: inline-block;
+                }
+            }
+        }
+        .title{
+            margin-top:22px;
+            margin-bottom:14px;
+            font-size:18px;
+            color:#333333;
+            letter-spacing:0;
+            line-height:24px;
+            font-weight: bold;
+        }
+        .tendence{
+            background: #fff;
+            widows: auto;
+            padding :30px 20px;
+            font-size:14px;
+            .date{
+                margin-bottom: 20px;
+                .btn{
+                    border: #0289ff 1px solid;
+                    background: #fff;
+                    color:#0289ff;
+                    margin-right: 20px;
+                    padding: 5px 30px;
+                    border-radius: 20px;
+                    display: inline;
+                    
+                }
+                .btn:hover,.btn:focus,.btn:active,.btn:visited{
+
+                    background: #0289ff;
+                    border:#0289ff 1px solid;
+                    color:#fff;
+                }
+                span{
+                    padding-right: 20px;
+                }
+            }
+        }
+        .analyse{
+            display:flex;
+            flex-direction:row;
+            width: 100%;
+            justify-content: space-around;
+            padding: 20px 0;
+            // #analyse1,#analyse2,#analyse3,#analyse4{
+            //     width: 50%;
+            //     height: 400px;
+            // }
+
+            .chart{
+                background:#fff;
+                padding-top:20px;
+                padding-left: 10px;
+
+            }
+        }
+    }
+    :global{
+        .ant-layout-content{
+            margin: 24px 30px 0px
+        }
+    }
+}

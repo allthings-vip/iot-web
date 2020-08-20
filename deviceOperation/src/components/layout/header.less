@@ -1,0 +1,105 @@
+.headerWrap{
+    position: relative;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+    height: 80px;
+    background: #fff;
+    box-shadow: 0 2px 2px 0 #ddd;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    .logo{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        div{
+            line-height: 48px;
+        }
+        img{
+            width: 310px;
+            height: 40px;
+        }
+        .title{
+            vertical-align:super;
+            font-family: PingFangSC-Semibold;
+            font-size: 22px;
+            color: #333;
+            line-height: 26px;
+            cursor: pointer;
+        }
+    }
+    .leftWrap{
+        padding: 20px 20px 16px 20px;
+        color: #0289ff;
+        font-weight: bold;
+        font-size: 22px;
+        line-height: 22px;
+        span{
+            font-size:18px;
+            color:#666;
+        }
+    }
+}
+.agency{
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+.rightWrap{
+    float: right;
+    font-size: 16px;
+    color: #999;
+    padding: 20px 20px 16px 20px;
+    .agency{
+        width: 30px;
+        height: 30px;
+        vertical-align: middle;
+        margin-right: 10px;
+    }
+    :global{
+        .iconfont{
+            margin-right: 5px;
+        }
+    }
+    ul{
+        float: left;
+        li{
+            float: left;
+            padding: 0 20px;
+            box-sizing: border-box;
+            a{
+                color:#666;
+                &:hover{
+                    color: #0289ff;
+                    cursor: pointer;
+                }
+            }
+        }
+        :global{
+            .active{
+                color: #0289ff;
+                background: #fff;
+            }
+        }
+    }
+    
+    .other{
+        float: right;
+        .name{
+            margin-left: 10px;
+            color: #666;
+            a{
+                color: #666;
+            }
+        }
+        .item{
+            margin: 0 20px;
+            cursor: pointer;
+        }
+    }
+    
+}

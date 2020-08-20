@@ -1,0 +1,142 @@
+.container{
+    padding: 0 0 10px 0;
+    
+    .detail{
+        display:flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        margin-bottom: 20px;
+        .item{
+            color:#999;
+            line-height: 36px;
+            span{
+                color:#333;
+                margin-left: 5px;
+                white-space: nowrap;
+                overflow: hidden;
+                display: inline-block;
+                text-overflow: ellipsis;
+                max-width: 400px;
+                vertical-align: top;
+            }
+        }
+    }
+    .tableitem{
+        margin: 10px 0;
+        :global{
+            .ant-row{
+                border-left:1px solid #e7eef2;
+                border-top:1px solid #e7eef2;
+            }
+            .ant-col-6{
+                border-right:1px solid #e7eef2;
+                border-bottom:1px solid #e7eef2;
+                padding: 0 10px;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                height: 40px;
+                line-height: 40px;
+            }
+        }
+    }
+}
+.deviceData{
+    padding: 0 0 10px 0;
+    
+    .title{
+        font-size:16px;
+        font-weight: bold;
+        color: #333;
+        line-height: 24px;
+    }
+    .item{
+        border-right:1px solid #e7eef2;
+        border-top:1px solid #e7eef2;
+        :global{
+            .ant-row{
+                border-right:1px solid #e7eef2;
+                border-top:1px solid #e7eef2;
+            }
+            .ant-col-5,.ant-col-7,.ant-col-12{
+                background: #f0f4fa;
+                padding: 12px 5px;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            }
+            .ant-col-6,.ant-col-8,{
+                color: #333;
+            }
+            .ant-col-10{
+                color: #999;
+            }
+        }
+    }
+    .tableitem{
+        margin: 10px 0;
+        :global{
+            .ant-row{
+                border-left:1px solid #e7eef2;
+                border-top:1px solid #e7eef2;
+            }
+            .ant-col-6{
+                border-right:1px solid #e7eef2;
+                border-bottom:1px solid #e7eef2;
+                padding: 0 10px;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                height: 40px;
+                line-height: 40px;
+            }
+        }
+    }
+    .historyData{
+        padding: 10px 0;
+        .search{
+            padding: 10px; 
+            background: rgba(240,244,250,0.50);
+            :global{
+                .ant-calendar-picker{
+                    width: 100%;
+                }
+            }
+        }
+        .chart {
+            margin-top: 20px;
+        }
+    }
+    
+}
+.deviceEvent{
+    padding: 0 0 10px 0;
+    .search{ 
+        :global{
+            .ant-calendar-picker{
+                width: 100%;
+            }
+            .ant-form-item-label{
+                text-align: left;
+            }
+        }
+    }
+}
+.deviceLog{
+    padding: 0 0 10px 0;
+    :global{
+    }
+}
+.videoModal{
+    :global{
+        .ant-modal-header{
+            display: none !important;
+        }
+        .ant-modal-body{
+            padding: 0;
+        }
+        .ant-modal-close{
+            display: none !important;
+        }
+    }
+}

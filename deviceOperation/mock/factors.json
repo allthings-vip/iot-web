@@ -1,0 +1,19 @@
+{
+    "err":"",
+    "rc":0,
+    "ret":{
+        "items":[
+            {
+                "dataAggTypeName":"聚合类型",
+                "factorCode":"因子编码",
+                "factorName":"因子名称",
+                "iotFactorId":"因子ID",
+                "unitName":"单位名称",
+                "unitSymbol":"1"
+
+            }
+        ],
+        "rowCount":45
+    }
+
+}

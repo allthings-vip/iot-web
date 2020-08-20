@@ -1,0 +1,27 @@
+{
+    "err":"",
+    "rc":0,
+    "ret":{
+        "companyName":"慧连",
+        "description":"掌握核心技术",
+        "deviceTotal":12,
+        "deviceTypes":[
+            {
+                "deviceTypeName":"1111",
+                "iotDeviceTypeId":"1"
+            },
+            {
+                "deviceTypeName":"22222",
+                "iotDeviceTypeId":"3"
+            }
+        ],
+        "imageUrl":"",
+        "inputDate":"2018-03-21",
+        "iotProjectId":"1",
+        "projectName":"项目名称",
+        "username":"用户名称",
+        "offlineTotal":10,
+        "onlineTotal":20
+    }
+
+}

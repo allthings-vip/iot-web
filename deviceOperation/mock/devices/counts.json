@@ -1,0 +1,23 @@
+{
+    "err":"",
+    "rc":0,
+    "ret":{
+        "items":[{
+            "deviceCounts":"10",
+            "inputDate":"1515513600000"
+        },{
+            "deviceCounts":"50",
+            "inputDate":"1515600000000"
+        },{
+            "deviceCounts":"22",
+            "inputDate":"1515686400000"
+        },{
+            "deviceCounts":"43",
+            "inputDate":"1515772800000"
+        },{
+            "deviceCounts":"34",
+            "inputDate":"1515859200000"
+        }]
+    }
+
+}
